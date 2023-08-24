@@ -19,6 +19,8 @@ were going to add more stuff in
 we start with creating an AST for tcl, and use it for all the features.
 not yet sure how to do it, but i started to learn about BNF and it seems like it could work
 
+24/8/2023 - i think im going to use [participle](https://github.com/alecthomas/participle/blob/master/TUTORIAL.md)
+
 
 
  
