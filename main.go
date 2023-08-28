@@ -67,6 +67,8 @@ set foo 123
 set bar "hello world"
 `
 
+	// see this example:
+	// https://github.com/openllb/hlb/blob/9f1194235a5f3bd3ab123239b5e517344a293f31/parser/ast/ast.go
 	var lexer2 = lexer.Must(lexer.Rules{
 		"Root": {
 			{`BracesGroup`, `{`, lexer.Push("BracesGroup")},
